@@ -1,15 +1,16 @@
 {
-  "name": "wnicol",
-  "app_id": "",
-  "type": "ionic1",
-  "integrations": {
-    "gulp": {},
-    "cordova": {}
-  },
-  "watchPatterns": [
-    "scss/**/*",
-    "www/**/*",
-    "!www/lib/**/*",
-    "!www/**/*.map"
-  ]
+    "name": "wnicol",
+    "app_id": "",
+    "type": "ionic1",
+    "gulpStartupTasks": ["sass", "watch"],
+    "integrations": {
+        "gulp": {},
+        "cordova": {}
+    },
+    "watchPatterns": [
+        "scss/**/*",
+        "www/**/*",
+        "!www/lib/**/*",
+        "!www/**/*.map"
+    ]
 }
